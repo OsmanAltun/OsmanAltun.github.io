@@ -47,7 +47,6 @@ span.pink {
     width: 100vw;
     max-width: 100vw;
     height: fit-content;
-    opacity: 100%;
     position: fixed;
     display: flex;
     z-index: 1000;
