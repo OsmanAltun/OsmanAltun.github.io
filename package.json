@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://osmanaltun.github.com",
+  "homepage": "osmanaltun.github.com",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.18",
