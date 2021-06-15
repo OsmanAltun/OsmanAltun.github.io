@@ -7,6 +7,7 @@ import recruiter from "../assets/recruiter.png";
 import webshop from "../assets/webshop.png";
 import stolenBikes from "../assets/stolenBikes.png";
 import towerClimbingQuiz from "../assets/towerClimbingQuiz.png";
+import microservices from "../assets/microservices.jpg"
 
 
 class Portfolio extends React.Component
@@ -24,6 +25,23 @@ class Portfolio extends React.Component
             <h2><span className="red">RE</span>CENT <span className="red">PRO</span>JECTS</h2>
             <br/>
 
+            <div className="item">
+                <img src={microservices} alt="Declaration service"></img>
+                <div className="textArea">
+                    <h3><span className="pink">Transaction handling of microservices</span></h3>
+                    <h4><span className="gray">Graduation Internship</span></h4>
+                    <p>
+                        The communication between databases and microservices requires the implementation of a pattern for 
+                        distributed transactions. The research of this internship puts emphasis on this part of microservice architecture. 
+                        The two discussed patterns are Two-Phase Commit and Saga pattern. 
+                        The Saga pattern can be implemented in two different ways, namely Orchestration and Choreography. <br/><br/>
+                        
+                        The Proof-of-Concept is a declaration service which gives the employees of Quintor a way to commit cost declarations.
+                        These declarations can thereafter be approved or rejected with a reason. 
+                        The service is a single microservice which effortlessly fits in the microservices environment of Quintor.
+                    </p>
+                </div>
+            </div>
 
             <div className="item">
                 <img src={musicClassification} alt="Music classification results"></img>
